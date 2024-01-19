@@ -11,8 +11,8 @@ const NavStack = () => {
   return (
     <NativeStack.Navigator>
       <NativeStack.Screen name='login' component={Login} options={{ headerShown: false }} />
-      <NativeStack.Screen name='register' component={Register} />
-      <NativeStack.Screen name='resetPassword' component={ResetPasswordRequest} />
+      <NativeStack.Screen name='register' component={Register} options={{ headerShown: false }} />
+      <NativeStack.Screen name='resetPassword' component={ResetPasswordRequest} options={{ headerShown: false }} />
 
       <NativeStack.Screen name='profile' component={UserProfile} />
       <NativeStack.Screen name='account' component={Account} />
